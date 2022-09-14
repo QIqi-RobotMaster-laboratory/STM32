@@ -79,7 +79,7 @@
 
 //GPIO口一开始在AHB1总线，但是它可以通过复用功能接到其他时钟线
 
-void TIM_PWM_Init(uint16_t arr, uint16_t psc)
+void TIM_PWM_Init(uint32_t arr, uint16_t psc)
 {
     GPIO_InitTypeDef GPIO_InitStructure;
     TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStructure;

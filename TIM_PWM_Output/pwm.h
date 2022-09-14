@@ -10,7 +10,7 @@
  * @param arr 定时器时基单元自动重装载值
  * @param psc 定时器时基单元预分频系数
  */
-void TIM_PWM_Init(uint16_t arr, uint16_t psc);
+void TIM_PWM_Init(uint32_t arr, uint16_t psc);
 
 /*
  * 定时器初始化完成后调用
