@@ -10,7 +10,7 @@
  * @param arr 自动重装载器的数值
  * @param psc 定时器时钟源的预分频系数
  */
-void TIM_init(uint16_t arr, uint16_t psc);
+void TIM_init(uint32_t arr, uint16_t psc);
 
 
 #endif

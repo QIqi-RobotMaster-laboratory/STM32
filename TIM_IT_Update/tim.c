@@ -86,7 +86,7 @@
 #define NVIC_PREEMPTIONPRIORITY 0x01//NVIC抢占优先级
 #define NVIC_SUBPRIORITY 0x03       //NVIC子优先级
 
-void TIM_init(uint16_t arr, uint16_t psc)
+void TIM_init(uint32_t arr, uint16_t psc)
 {
     //初始化结构体
     TIM_TimeBaseInitTypeDef TIM_TimeBaseInitStructure;//定时器初始化结构体
