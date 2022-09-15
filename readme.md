@@ -1,4 +1,4 @@
-# STM32 硬件外设配置
+# STM32 硬件外设配置 (HARDWARE)
 
 **仓库创建者**：yuanluochen
 
